@@ -18,10 +18,16 @@ It includes:
 
 # 🏗️ Architecture
 
-Google Drive (Source 1) ┐
-                        ├──→ Dropbox (Destination)
-Google Drive (Source 2) ┘
-
+        ┌──────────────────────────┐
+        │ Google Drive (Source 1)  │
+        └──────────┬───────────────┘
+                   │
+                   │
+                   ├──────────────→ Dropbox (Destination)
+                   │
+        ┌──────────┴───────────────┐
+        │ Google Drive (Source 2)  │
+        └──────────────────────────┘
 ---
 
 # ☁️ Technologies Used
