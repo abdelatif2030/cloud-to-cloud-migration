@@ -112,3 +112,14 @@ Scalable cloud architecture
 All migrated data is stored in:
 
 Dropbox:/Migration_Demo
+
+# 👨‍💻 Author
+
+**Abdellatif Mohamed Abdeldaim**  
+Cloud & DevOps Engineer  
+
+Specialized in:
+- AWS Cloud Architecture
+- DevOps Automation
+- Multi-Cloud Migration
+- CI/CD Pipelines
