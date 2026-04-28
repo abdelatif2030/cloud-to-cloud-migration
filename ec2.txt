@@ -1,0 +1,18 @@
+aws ec2 start-instances \
+  --instance-ids i-07d4f8427af0054f1
+
+
+aws ec2 describe-instances \
+  --instance-ids i-07d4f8427af0054f1 \
+  --query "Reservations[].Instances[].State.Name" \
+  --output text
+
+aws ec2 describe-instances \
+  --instance-ids i-07d4f8427af0054f1 \
+  --query "Reservations[].Instances[].PublicIpAddress" \
+  --output text
+
+ssh -i MyKeyPair.pem ec2-user@NEW_PUBLIC_IP
+
+
+export AWS_DEFAULT_REGION=us-east-1
